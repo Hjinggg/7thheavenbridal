@@ -230,6 +230,7 @@ footer {
 
 .contact-us {
     display: flex;
+    flex-direction: column;
 }
 
 .contact-us p {
@@ -242,4 +243,33 @@ footer {
 .contact-us i {
     margin-right: 10px;
     font-size: 40px;
+}
+
+
+
+/* Initially hide the mobile version */
+.whenMobileGone {
+    display: none;
+}
+
+/* Show the mobile version on screens smaller than 576px */
+@media (max-width: 575.98px) {
+    .whenDesktopGone {
+        display: none;
+    }
+    .whenMobileGone {
+        display: block;
+    }
+}
+
+/* Initially show the desktop version */
+.whenDesktopGone {
+    display: block;
+}
+
+/* Hide the desktop version on screens smaller than 576px */
+@media (max-width: 575.98px) {
+    .whenDesktopGone {
+        display: none;
+    }
 }
