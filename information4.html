@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collections</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/7th Heaven New Logo-01.webp" alt="" width="250" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="weddingdress.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Collection
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="weddingdress.html">Wedding Dresses</a></li>
+                <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bridalstory.html">Bridal Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="findus.html">Find Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="second-row col-12 col-sm-6">
+          <img src="image/14.jpeg" alt="" class="home-dress img-fluid">
+        </div>
+        <div class="col-12 col-sm-6">
+          <div class="home-text col-sm-12 col-md-6 col-lg-8">
+            <h1>#0213</h1>
+            <h4>Product Information</h4>
+            <p>PRODUCT CODE : #0213 
+              <br>PRODUCT COLOUR : OFF-WHITE
+              <br>COLLAR : LOW CUT
+              <br>COTTON MATERIAL : COMFORTABLE COTTON</p>
+            <p>REMARK : Model is wearing size 6 and she is 180cm.</p>
+            <button type="button" class="btn btn-link btn-primary size" data-bs-toggle="modal" data-bs-target="#sizeChartModal">
+              Size Guide
+            </button>
+            <div class="modal fade" id="sizeChartModal" tabindex="-1" aria-labelledby="sizeChartModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="sizeChartModalLabel">Size Chart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- Insert your image here -->
+                    <img src="image/Group 46.png" class="img-fluid" alt="Size Chart">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid more-optional">
+      <div class="row">
+        <div class="option col text-center">
+          <h5>Select size (more optional)</h5>
+        </div>
+      </div>
+      <div class="row text-center">
+          <div class="col">
+            <div class="size-btn" role="group" aria-label="Size Selection">
+              <button type="button" class="size-select btn btn-secondary btn-lg" disabled>Size 2</button>
+              <button type="button" class="size-select btn btn-primary btn-lg ms-4">Size 4</button>
+              <button type="button" class="size-select btn btn-primary btn-lg ms-4">Size 6</button>
+              <button type="button" class="size-select btn btn-primary btn-lg ms-4">Size 12</button>
+              <button type="button" class="size-select btn btn-primary btn-lg ms-4">Size 16</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="option col text-center">
+            <h5>Select accessories (more optional)</h5>
+          </div>
+        </div>
+        
+        <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="accessories1-btn owl-carousel owl-theme">
+                      <div class="item text-center">
+                              <img src="image/19.jpeg" alt="" class="accessories-carousel-img">
+                              <button type="button" class="size-select btn btn-primary btn-lg ms-4">Select</button>
+                      </div>
+                      <div class="item text-center">
+                              <img src="image/20.jpeg" alt="" class="accessories-carousel-img">
+                              <button type="button" class="size-select btn btn-primary btn-lg ms-4">Select</button>
+                      </div>
+                      <div class="item text-center">
+                              <img src="image/21.jpeg" alt="" class="accessories-carousel-img">
+                              <button type="button" class="size-select btn btn-primary btn-lg ms-4">Select</button>
+                      </div>
+                      <div class="item text-center">
+                              <img src="image/22.jpeg" alt="" class="accessories-carousel-img">
+                              <button type="button" class="size-select btn btn-primary btn-lg ms-4">Select</button>
+                      </div>
+                      <div class="item text-center">
+                        <img src="image/23.jpeg" alt="" class="accessories-carousel-img">
+                        <button type="button" class="size-select btn btn-primary btn-lg ms-4">Select</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="accessories2-btn owl-carousel owl-theme">
+                    <div class="item text-center">
+                        <img src="image/24.jpeg" alt="" class="accessories-carousel-img">
+                        <button type="button" class="size-select btn btn-primary btn-lg ms-4">Select</button>
+                    </div>
+                    <div class="item text-center not-available">
+                      <img src="image/25.jpeg" alt="" class="accessories-carousel-img">
+                      <span class="not-available-text">NOT AVAILABLE</span>
+                      <button type="button" class="size-select btn btn-secondary btn-lg" disabled>Select</button>
+                    </div>
+                    <div class="item text-center">
+                        <img src="image/26.jpeg" alt="" class="accessories-carousel-img">
+                        <button type="button" class="size-select btn btn-primary btn-lg ms-4">Select</button>
+                    </div>
+                    <div class="item text-center">
+                        <img src="image/27.jpeg" alt="" class="accessories-carousel-img">
+                        <button type="button" class="size-select btn btn-primary btn-lg ms-4">Select</button>
+                    </div>
+                    <div class="item text-center">
+                        <img src="image/28.jpeg" alt="" class="accessories-carousel-img">
+                        <button type="button" class="size-select btn btn-primary btn-lg ms-4">Select</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+      
+          <div class="row text-center">
+            <div class="col">
+              <img src="image/29.jpg" class="reference-img img-fluid" alt="...">
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col">
+              <img src="image/30.jpg" class="reference-img img-fluid" alt="...">
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col">
+              <img src="image/31.jpg" class="reference-img img-fluid" alt="...">
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col">
+              <a class="book-appointment btn btn-primary" href="findus.html" role="button">Book Appointment</a>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col">
+              <div class="question">Do you like it?</div>
+              <div class="rating" data-rating="0">
+                <span class="star" data-value="1">&#9733;</span>
+                <span class="star" data-value="2">&#9733;</span>
+                <span class="star" data-value="3">&#9733;</span>
+                <span class="star" data-value="4">&#9733;</span>
+                <span class="star" data-value="5">&#9733;</span>
+              </div>
+              
+            </div>
+        </div>
+
+        <footer>
+          <div class="container">
+            <div class="row whenMobileGone">
+            <div class="find-us-m ">
+            <h1>FIND US</h1>
+            <!-- Replace the iframe with your actual map or other location representation -->
+            <iframe width="400" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201989.82862505844!2d-0.2416815480041036!3d51.52873579999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b820e4ed0df%3A0x751bb17c48b2d24e!2sLondon%2C%20UK!5e0!3m2!1sen!2sus!4v1614628625238!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact-us-m">
+            <h1>CONTACT US</h1>
+            <p>Email: hello@seventhheavenmy.com</p>
+            <p>Phone Number: +603-7499 2096 | +6019-644 7660</p>
+            <p>Address: Tropicana Avenue, Persiaran Tropicana, 47410 PJ, Selangor.</p>
+            <a class="btn book-now-button btn-primary bottom-0 end-0 m-6" href="findus.html" role="button">Book Now</a>
+            </div>
+        </div>
+        <div class="row whenDesktopGone">
+            <div class="findus">
+                <div class="find">
+                    <h1>FIND US</h1>
+                    <!-- Replace the iframe with your actual map or other location representation -->
+                    <iframe width="500" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201989.82862505844!2d-0.2416815480041036!3d51.52873579999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b820e4ed0df%3A0x751bb17c48b2d24e!2sLondon%2C%20UK!5e0!3m2!1sen!2sus!4v1614628625238!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="contact">
+                    <h1>CONTACT US</h1>
+                    <p>Email: hello@seventhheavenmy.com</p>
+                    <p>Phone Number: +603-7499 2096 | +6019-644 7660</p>
+                    <p>Address: Tropicana Avenue, Persiaran Tropicana, 47410 PJ, Selangor.</p>
+                    <a class="btn book-now-button btn-primary bottom-0 end-0 m-6" href="findus.html" role="button">Book Now</a>
+                </div>
+            </div>
+        </div>
+          </div>
+          
+        </footer>
+
+
+     <!-- Bootstrap Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <!-- JQUERY CDN LINK -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <!-- JS CND LINK FOR OWL CAROUSEL LIBRARY -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+  const rating = document.querySelector('.rating');
+  const stars = rating.querySelectorAll('.star');
+
+  stars.forEach(star => {
+    star.addEventListener('click', function () {
+      const value = this.getAttribute('data-value');
+      rating.setAttribute('data-rating', value);
+      highlightStars(value);
+    });
+
+    star.addEventListener('mouseover', function () {
+      const value = this.getAttribute('data-value');
+      highlightStars(value);
+    });
+
+    star.addEventListener('mouseout', function () {
+      const currentValue = rating.getAttribute('data-rating');
+      highlightStars(currentValue);
+    });
+  });
+
+  function highlightStars(value) {
+    stars.forEach(star => {
+      if (star.getAttribute('data-value') <= value) {
+        star.classList.add('active');
+      } else {
+        star.classList.remove('active');
+      }
+    });
+  }
+});
+
+      </script>
+    
+     <script>
+         $('.owl-carousel').owlCarousel({
+     loop:true,
+     margin:10,
+     nav:true,
+     responsive:{
+         0:{
+             items:1
+         },
+         600:{
+             items:3
+         },
+         1000:{
+             items:3
+         }
+     }
+ })
+     </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          const sizeButtons = document.querySelectorAll('.size-btn .btn');
+  
+          sizeButtons.forEach(button => {
+              button.addEventListener('click', function () {
+                  sizeButtons.forEach(btn => btn.classList.remove('active'));
+                  this.classList.add('active');
+              });
+          });
+      });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const accessories1Buttons = document.querySelectorAll('.accessories1-btn .size-select');
+
+        accessories1Buttons.forEach(button => {
+            button.addEventListener('click', function () {
+                accessories1Buttons.forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const accessories2Buttons = document.querySelectorAll('.accessories2-btn .size-select');
+
+        accessories2Buttons.forEach(button => {
+            button.addEventListener('click', function () {
+                accessories2Buttons.forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    });
+</script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
